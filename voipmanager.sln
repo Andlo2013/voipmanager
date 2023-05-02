@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voipmanager.Client", "Clien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voipmanager.Shared", "Shared\voipmanager.Shared.csproj", "{72FAE738-E1D6-46E0-A733-A7392BB850C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_EnterpriseBusinessRules", "1_EnterpriseBusinessRules", "{D6138409-BBC8-4D72-B53C-E60A8500144D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_ApplicationBusinessRules", "2_ApplicationBusinessRules", "{48CD4E33-A0F9-4BAC-8198-AE9F76F7A322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_InterfacesAdapters", "3_InterfacesAdapters", "{93FA9B07-F75E-48B6-800F-43742A080366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_FrameworksDrivers", "4_FrameworksDrivers", "{824FA4C0-09A2-447A-9532-FE1DEFC02168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voipmanager.BusinessObjects", "voipmanager.BusinessObjects\voipmanager.BusinessObjects.csproj", "{84063ED2-3B12-429E-98AE-B46BB886F8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voipmanager.enums", "voipmanager.enums\voipmanager.enums.csproj", "{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +39,21 @@ Global
 		{72FAE738-E1D6-46E0-A733-A7392BB850C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FAE738-E1D6-46E0-A733-A7392BB850C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FAE738-E1D6-46E0-A733-A7392BB850C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84063ED2-3B12-429E-98AE-B46BB886F8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84063ED2-3B12-429E-98AE-B46BB886F8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84063ED2-3B12-429E-98AE-B46BB886F8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84063ED2-3B12-429E-98AE-B46BB886F8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84063ED2-3B12-429E-98AE-B46BB886F8B5} = {48CD4E33-A0F9-4BAC-8198-AE9F76F7A322}
+		{CEB30116-4337-4BBC-9CBE-1D9EE4C5CF67} = {D6138409-BBC8-4D72-B53C-E60A8500144D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38093578-F724-4D90-A771-3986231F6A9F}
